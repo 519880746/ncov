@@ -23,7 +23,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r ./requirements.txt
-    - name: 喻定泽
+    - name: Dizzy_Env
       run: |
         python ./upload.py -n 1 -u ${{ secrets.USER }} -p ${{ secrets.PASS }} -f ./data/upload.txt
     - name: 王
